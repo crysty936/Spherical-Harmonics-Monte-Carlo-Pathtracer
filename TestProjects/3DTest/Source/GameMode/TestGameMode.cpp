@@ -53,6 +53,7 @@ void TestGameMode::Init()
 	constexpr float quadratic = 0.000007f;
 
 	MainModel = SceneHelper::CreateVisualEntity<AssimpModel3D>("../Data/Models/low_poly_suzanne/Monkey.obj", "Monke", glm::vec3(1.f, 1.f, 1.f));
+	//MainModel = SceneHelper::CreateVisualEntity<AssimpModel3D>("../Data/Models/Shiba/scene.gltf", "Monke", glm::vec3(1.f, 1.f, 1.f));
 }
 
 struct Sphere
